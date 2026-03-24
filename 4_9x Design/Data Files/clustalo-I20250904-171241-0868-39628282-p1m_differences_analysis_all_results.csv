@@ -1,0 +1,66 @@
+Position,Criteria_Met,Meets_Criteria_1_Low_Activity_Disagreement,Meets_Criteria_2_Strong_Phenotype_Signal,Meets_Criteria_3_Strong_Consensus,normalized_kcat_bc,Activity_Level,Sequence_Pattern,Consensus_AA,Consensus_Fraction,Minority_Proteins,Total_Variants,RBC4.9,RBC2.3,RBC4.11,RBC4.10,13,kcat,group,activity_label
+13,Strong Consensus,False,False,True,1.013033885730119,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,RBC2.3(N),2,K,N,K,K,K,26.73835381726647,Variant,Active
+15,Strong Consensus,False,False,True,1.0073320017769454,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC2.3(A),2,E,A,E,E,E,26.58785639293296,Variant,Active
+20,Strong Consensus,False,False,True,0.9499721418609128,Normal (≥0.8),Strong Consensus (80.0%),G,0.8,RBC4.10(N),2,G,G,G,N,G,25.07388114398229,Variant,Active
+24,Strong Consensus,False,False,True,1.0147880657710129,Normal (≥0.8),Strong Consensus (80.0%),L,0.8,RBC4.11(F),2,L,L,F,L,L,26.78465422957578,Variant,Active
+34,"Strong Phenotype Signal, Strong Consensus",False,True,True,1.1228225855324985,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,RBC4.9(E),2,E,K,K,K,K,29.63615333000235,Variant,Active
+45,Strong Consensus,False,False,True,0.8732096585446091,Normal (≥0.8),Strong Consensus (80.0%),V,0.8,RBC2.3(I),2,V,I,V,V,V,23.04778659007302,Variant,Active
+73,Strong Consensus,False,False,True,0.9094657330078708,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC2.3(D),2,E,D,E,E,E,24.00474149620151,Variant,Active
+74,Strong Consensus,False,False,True,0.8986331609450786,Normal (≥0.8),Strong Consensus (80.0%),I,0.8,RBC4.11(V),2,I,I,V,I,I,23.71882298089221,Variant,Active
+81,Strong Consensus,False,False,True,1.050901253863846,Normal (≥0.8),Strong Consensus (80.0%),D,0.8,RBC4.11(N),2,D,D,N,D,D,27.73783774524834,Variant,Active
+83,Strong Consensus,False,False,True,,No Data,Strong Consensus (80.0%),P,0.8,RBC2.3(G),2,P,G,P,P,P,,Variant,Missing
+90,Strong Consensus,False,False,True,1.006585078003961,Normal (≥0.8),Strong Consensus (80.0%),M,0.8,RBC4.10(F),2,M,M,M,F,M,26.56814183807165,Variant,Active
+97,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.8723227425448788,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC4.9(D),2,D,E,E,E,E,23.02437703374817,Variant,Active
+104,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.742493192930414,Low (<0.8),Multiple Variants,N/A,,,,I,I,S,T,T,19.59761265554974,Variant,Active
+108,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.7067890655420739,Low (<0.8),Two Groups,N/A,,,,F,Y,F,Y,F,18.65522602436796,Variant,Active
+110,Strong Consensus,False,False,True,0.9370721917223356,Normal (≥0.8),Strong Consensus (80.0%),V,0.8,RBC4.10(I),2,V,V,V,I,V,24.73339556310582,Variant,Active
+144,"Strong Phenotype Signal, Strong Consensus",False,True,True,1.043530680380741,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,RBC4.9(N),2,N,K,K,K,K,27.54329637362839,Variant,Active
+149,Strong Consensus,False,False,True,0.8520385020101965,Normal (≥0.8),Strong Consensus (80.0%),S,0.8,RBC4.11(A),2,S,S,A,S,S,22.48898803248097,Variant,Active
+151,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.2191537648531429,Low (<0.8),Two Groups,N/A,,,,G,G,N,N,G,5.784417468726666,Variant,Active
+154,Strong Consensus,False,False,True,0.9096075576911404,Normal (≥0.8),Strong Consensus (80.0%),D,0.8,RBC4.10(N),2,D,D,D,N,D,24.00848486413294,Variant,Active
+155,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.2169598352985919,Low (<0.8),Two Groups,N/A,,,,M,L,M,L,L,5.726510161275185,Variant,Active
+158,Strong Consensus,False,False,True,0.922394236765632,Normal (≥0.8),Strong Consensus (80.0%),V,0.8,RBC4.11(T),2,V,V,T,V,V,24.34598073081382,Variant,Active
+159,Strong Consensus,False,False,True,,No Data,Strong Consensus (80.0%),L,0.8,RBC4.11(M),2,L,L,M,L,L,,Variant,Missing
+162,Strong Consensus,False,False,True,0.829994992367435,Normal (≥0.8),Strong Consensus (80.0%),P,0.8,RBC4.10(S),2,P,P,P,S,P,21.90716429637003,Variant,Active
+164,Strong Consensus,False,False,True,0.9209648649913994,Normal (≥0.8),Strong Consensus (80.0%),V,0.8,RBC4.10(T),2,V,V,V,T,V,24.30825341608703,Variant,Active
+183,Strong Consensus,False,False,True,1.017869246076159,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,13(D),2,E,E,E,E,D,26.86597992887794,Variant,Active
+186,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.9157036993329718,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC4.9(V),2,V,A,A,A,A,24.16938845722645,BC,Active
+187,Strong Consensus,False,False,True,0.933055674025941,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,RBC4.11(R),2,K,K,R,K,K,24.62738225714211,Variant,Active
+190,Strong Consensus,False,False,True,0.820206932938432,Normal (≥0.8),Strong Consensus (80.0%),Y,0.8,RBC2.3(L),2,Y,L,Y,Y,Y,21.6488149954397,Variant,Active
+197,Strong Consensus,False,False,True,0.8304396355392819,Normal (≥0.8),Strong Consensus (80.0%),D,0.8,RBC4.11(T),2,D,D,T,D,D,21.91890035635652,Variant,Active
+214,Strong Consensus,False,False,True,,No Data,Strong Consensus (80.0%),E,0.8,RBC2.3(K),2,E,K,E,E,E,,Variant,Missing
+217,Strong Consensus,False,False,True,1.0747012034927856,Normal (≥0.8),Strong Consensus (80.0%),I,0.8,RBC4.10(M),2,I,I,I,M,I,28.3660215434172,Variant,Active
+226,Strong Consensus,False,False,True,1.025749553399259,Normal (≥0.8),Strong Consensus (80.0%),R,0.8,13(K),2,R,R,R,R,K,27.07397538526092,Variant,Active
+227,"Strong Phenotype Signal, Strong Consensus",False,True,True,1.096531714608452,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC4.9(V),2,V,A,A,A,A,28.94222332545509,BC,Active
+230,Strong Consensus,False,False,True,1.0373964439393866,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC4.10(A),2,E,E,E,A,E,27.38138729370705,BC,Active
+234,Strong Consensus,False,False,True,1.0752638900078118,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC4.11(V),2,A,A,V,A,A,28.3808732787233,BC,Active
+236,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.085310089411296,Low (<0.8),Two Groups,N/A,,,,I,L,I,L,L,2.251702916351964,Variant,Active
+241,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.6648236654642345,Low (<0.8),Multiple Variants,N/A,,,,A,A,V,I,V,17.54757727621607,Variant,Active
+246,Strong Consensus,False,False,True,1.0069539473928917,Normal (≥0.8),Strong Consensus (80.0%),H,0.8,RBC4.10(Y),2,H,H,H,Y,H,26.57787789959193,Variant,Active
+254,Strong Consensus,False,False,True,0.9814165659998868,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC4.10(D),2,E,E,E,D,E,25.90383574871115,Variant,Active
+256,Strong Consensus,False,False,True,0.8204076456274504,Normal (≥0.8),Strong Consensus (80.0%),I,0.8,RBC4.10(V),2,I,I,I,V,I,21.6541126730102,Variant,Active
+264,Strong Consensus,False,False,True,1.0056131578706329,Normal (≥0.8),Strong Consensus (80.0%),G,0.8,RBC4.10(N),2,G,G,G,N,G,26.5424886543301,Variant,Active
+265,Strong Consensus,False,False,True,0.850409671864756,Normal (≥0.8),Strong Consensus (80.0%),N,0.8,RBC4.10(S),2,N,N,N,S,N,22.44599614706578,Variant,Active
+266,Strong Consensus,False,False,True,1.0034048251665575,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC4.10(A),2,E,E,E,A,E,26.48420118535246,BC,Active
+289,Strong Consensus,False,False,True,0.8996525843899948,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC4.10(E),2,A,A,A,E,A,23.74572998286297,Variant,Active
+292,Strong Consensus,False,False,True,0.9854372966125686,Normal (≥0.8),Strong Consensus (80.0%),D,0.8,RBC4.11(E),2,D,D,E,D,D,26.00996025179065,Variant,Active
+322,"Strong Phenotype Signal, Strong Consensus",False,True,True,1.024674624081745,Normal (≥0.8),Strong Consensus (80.0%),L,0.8,RBC4.9(I),2,I,L,L,L,L,27.04560334280003,Variant,Active
+331,Strong Consensus,False,False,True,0.8112272374659281,Normal (≥0.8),Strong Consensus (80.0%),I,0.8,RBC4.10(M),2,I,I,I,M,I,21.41180192203982,Variant,Active
+354,Strong Consensus,False,False,True,0.8107568621022277,Normal (≥0.8),Strong Consensus (80.0%),L,0.8,RBC2.3(I),2,L,I,L,L,L,21.39938667801027,Variant,Active
+375,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.7312262092435768,Low (<0.8),Two Groups,N/A,,,,A,A,T,T,A,19.30022813513471,Variant,Active
+392,Strong Consensus,False,False,True,1.0707226698971322,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC4.10(Q),2,E,E,E,Q,E,28.2610108024608,Variant,Active
+397,Strong Consensus,False,False,True,0.8449980757047999,Normal (≥0.8),Strong Consensus (80.0%),G,0.8,RBC4.11(A),2,G,G,A,G,G,22.30316067544009,Variant,Active
+407,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.9236497225697248,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC4.9(S),2,S,A,A,A,A,24.37911844132406,BC,Active
+416,Strong Consensus,False,False,True,0.9995039739658564,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC2.3(S),2,A,S,A,A,A,26.3812408194041,BC,Active
+418,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.890700807982287,Normal (≥0.8),Strong Consensus (80.0%),G,0.8,RBC4.9(A),2,A,G,G,G,G,23.50945381455904,Variant,Active
+429,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.8983168837071318,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,RBC4.9(T),2,T,K,K,K,K,23.71047505412323,Variant,Active
+430,Strong Consensus,False,False,True,1.0463009011664497,Normal (≥0.8),Strong Consensus (80.0%),S,0.8,RBC4.11(T),2,S,S,T,S,S,27.61641450379522,Variant,Active
+437,Strong Consensus,False,False,True,,No Data,Strong Consensus (80.0%),Y,0.8,RBC2.3(F),2,Y,F,Y,Y,Y,,Variant,Missing
+449,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.8903679759231301,Normal (≥0.8),Strong Consensus (80.0%),E,0.8,RBC4.9(D),2,D,E,E,E,E,23.5006689343247,Variant,Active
+455,Strong Consensus,False,False,True,0.8403695518296358,Normal (≥0.8),Strong Consensus (80.0%),A,0.8,RBC4.10(G),2,A,A,A,G,A,22.18099387453727,Variant,Active
+457,Strong Consensus,False,False,True,0.9080711845670596,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,RBC4.11(R),2,K,K,R,K,K,23.96793332013655,Variant,Active
+461,"Strong Phenotype Signal, Strong Consensus",False,True,True,0.840597544288944,Normal (≥0.8),Strong Consensus (80.0%),-,0.8,RBC4.9(D),2,D,-,-,-,-,22.18701158345157,Variant,Active
+462,Low Activity + RBC4.10≠RBC4.9,True,False,False,0.6118770889099411,Low (<0.8),Multiple Variants,N/A,,,,D,D,D,G,N,16.15008769836118,Variant,Active
+466,Strong Consensus,False,False,True,1.094615818337188,Normal (≥0.8),Strong Consensus (80.0%),K,0.8,13(N),2,K,K,K,K,N,28.8916545210944,Variant,Active
+467,"Strong Phenotype Signal, Strong Consensus",False,True,True,1.0758567952515068,Normal (≥0.8),Strong Consensus (80.0%),L,0.8,RBC4.9(I),2,I,L,L,L,L,28.39652261721962,Variant,Active
+469,"Strong Phenotype Signal, Strong Consensus",False,True,True,1.012589263600346,Normal (≥0.8),Strong Consensus (80.0%),V,0.8,RBC4.9(A),2,A,V,V,V,V,26.72661831267149,Variant,Active
