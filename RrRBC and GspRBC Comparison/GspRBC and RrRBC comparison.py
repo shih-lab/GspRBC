@@ -5,6 +5,7 @@
 
 
 # === Imports ===
+import os
 from Bio import AlignIO
 import pandas as pd
 import numpy as np
@@ -14,10 +15,14 @@ import matplotlib.cm as cm
 from matplotlib.colors import LinearSegmentedColormap
 
 # === File paths ===
-alignment_path = 'RRand4_10aligned.fasta'
-rr_csv = 'Rr Alanine Vmax and Residue.csv'
-_410_csv = 'GspRBC alanine_scan_normalized_output.csv'
-output_path = "fitness_parallel_mapped_blocks_BY_ALIGNMENT.svg"
+# Resolves relative to this script's location, so it works regardless of
+# the directory the script is launched from.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "Data Files")
+alignment_path = os.path.join(DATA_DIR, 'RRand4_10aligned.fasta')
+rr_csv = os.path.join(DATA_DIR, 'Rr Alanine Vmax and Residue.csv')
+_410_csv = os.path.join(DATA_DIR, 'GspRBC alanine_scan_normalized_output.csv')
+output_path = os.path.join(SCRIPT_DIR, "fitness_parallel_mapped_blocks_BY_ALIGNMENT.svg")
 
 # === Column references ===
 rr_pos_col = "position"
@@ -1825,7 +1830,3 @@ print('\n' + '=' * 70)
 
 
 # In[ ]:
-
-
-
-
