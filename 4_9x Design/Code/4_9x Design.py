@@ -190,8 +190,13 @@ def main():
     print("🧬 CLUSTAL ALIGNMENT DIFFERENCE ANALYZER")
     print("=" * 60)
     
-    # Use your specific file path directly
-    clustal_file = '/Users/leah-shihlab/Library/CloudStorage/GoogleDrive-l.taylorkearney@berkeley.edu/My Drive/RuBisCO/4_10 Fast Carboxyaltion Project/Faster RBC Designs/4_9 to 4_10 Speed Project/4_9x/Round 3 4.9x/clustalo-I20250904-171241-0868-39628282-p1m.aln-clustal_num'
+    # Resolves relative to this script's location (Code/), so it works
+    # regardless of the directory the script is launched from.
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    clustal_file = os.path.join(
+        script_dir, "..", "Data Files",
+        "clustalo-I20250904-171241-0868-39628282-p1m.aln-clustal_num"
+    )
     
     print(f"📁 Using file: {clustal_file}")
     
@@ -875,7 +880,3 @@ if __name__ == "__main__":
 
 
 # In[ ]:
-
-
-
-
