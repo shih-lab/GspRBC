@@ -4,6 +4,7 @@
 # In[4]:
 
 
+import os
 import pandas as pd
 import numpy as np
 from Bio import SeqIO
@@ -13,9 +14,12 @@ from sklearn.mixture import GaussianMixture
 from scipy.stats import norm
 
 # === Paths ===
-base_dir = 'pathname'
+# Resolves relative to this script's location, so it works regardless of
+# the directory the script is launched from.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+base_dir = os.path.join(SCRIPT_DIR, "Data Files") + os.sep
 
-full_fasta = base_dir + '90%_cutoff-aligned_fasta'
+full_fasta = base_dir + 'FIIsMiloOnly90cutoffprioritysorted_aligned_88seqs.fasta'
 output_csv = base_dir + 'entropycalculation.csv'
 
 # === Load alignment ===
@@ -545,7 +549,3 @@ plt.show()
 
 
 # In[ ]:
-
-
-
-
