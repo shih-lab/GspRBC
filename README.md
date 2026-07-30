@@ -47,6 +47,7 @@ biopython (Bio.AlignIO, Bio.SeqIO)
 Install with:
 bash
 pip install pandas numpy matplotlib seaborn scipy scikit-learn biopython
+install time: <1 min
 
 Usage
 
