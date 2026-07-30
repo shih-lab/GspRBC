@@ -6,6 +6,7 @@
 
 #This code looks at the distribution of wild-type on the day (WTOTD), BC and variant values. 
 
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +14,11 @@ import seaborn as sns
 from scipy import stats
 
 # === Load file ===
-df = pd.read_excel('pathname/Tidy_Consolidated_Kinetics_Data.xlsx')
+# Resolves relative to this script's location (Code/), so it works
+# regardless of the directory the script is launched from.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "..", "Data Files")
+df = pd.read_excel(os.path.join(DATA_DIR, 'Tidy_Consolidated_Kinetics_Data.xlsx'))
 
 # === Clean column names ===
 df.columns = df.columns.str.strip().str.lower()
@@ -570,7 +575,3 @@ plt.show()
 
 
 # In[ ]:
-
-
-
-
